@@ -7,9 +7,8 @@ NRP | Nama
 Link Youtube : [MultiRole Application](https://youtu.be/2mYDdAVLSw8)
 
 ### Deskripsi Singkat :
-Aplikasi yang memiliki permission sesuai dengan rolenya masing masing. Pada aplikasi ini menggunakan laravel 8
-
-Peran dan permission dibuat beberapa jenis pengguna dengan peran dan izin berbeda, maksudnys beberapa pengguna hanya melihat daftar modul item, beberapa pengguna juga dapat mengedit modul item, untuk menghapus dan lain-lain.<br>
+Aplikasi ini memiliki permission sesuai dengan rolenya masing masing. Pada aplikasi ini menggunakan laravel 8
+Peran dan permission dibuat beberapa jenis pengguna dengan peran dan izin berbeda, maksudnya beberapa pengguna hanya melihat daftar modul item, beberapa pengguna juga dapat mengedit modul item, untuk menghapus dan lain-lain.<br>
 <br>
 Dalam contoh ini terdapat tiga modul seperti yang tercantum di bawah ini:
 - manajemen pengguna
