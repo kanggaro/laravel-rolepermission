@@ -4,7 +4,7 @@ NRP | Nama
 -|-
 5025201028 | Muhammad Abror Al Qushoyyi
 
-Link Youtube : [MultiRole Application](https://youtu.be/2mYDdAVLSw8)
+`Link Youtube : [MultiRole Application](https://youtu.be/2mYDdAVLSw8)`
 
 ### Deskripsi Singkat :
 Aplikasi ini memiliki permission sesuai dengan rolenya masing masing. Pada aplikasi ini menggunakan laravel 8
