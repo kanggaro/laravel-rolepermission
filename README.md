@@ -1,34 +1,36 @@
-#### Identitas
+## Tugas 13 - Laravel Multi Role Application
+### IDENTITAS
 NRP | Nama
 -|-
 5025201028 | Muhammad Abror Al Qushoyyi
 
 Link Youtube : [MultiRole Application](https://youtu.be/2mYDdAVLSw8)
 
-#### Deskripsi Singkat :
+### Deskripsi Singkat :
 Aplikasi yang memiliki permission sesuai dengan rolenya masing masing. Pada aplikasi ini menggunakan laravel 8
 
 Peran dan permission dibuat beberapa jenis pengguna dengan peran dan izin berbeda, maksudnys beberapa pengguna hanya melihat daftar modul item, beberapa pengguna juga dapat mengedit modul item, untuk menghapus dan lain-lain.
-
+<br>
 Dalam contoh ini terdapat tiga modul seperti yang tercantum di bawah ini:
 
-manajemen pengguna
-Manajemen Peran
-Manajemen Produk
-
+- manajemen pengguna
+- Manajemen Peran
+- Manajemen Produk
+<br>
 Setelah mendaftarkan pengguna, Anda tidak memiliki peran apa pun, sehingga Anda dapat mengedit detail Anda dan menetapkan peran admin untuk Anda dari Manajemen Pengguna. Setelah itu Anda dapat membuat peran Anda sendiri dengan izin seperti daftar peran, pembuatan peran, edit peran, hapus peran, daftar produk, pembuatan produk, edit produk, hapus produk. Anda dapat memeriksa dengan menetapkan pengguna baru dan memeriksanya.
 
-##### Berdasarkan clean architecture
-Entitas apa saja yang terlibat didalam aplikasi tersebut
-	nama, detail, id, timestamp
-Usecase
+### Berdasarkan clean architecture
+> Entitas apa saja yang terlibat didalam aplikasi tersebut
+	![Design Database](https://github.com/kanggaro/laravel-rolepermission/assets/90663373/87ff6757-1bbb-4049-81b5-28519cafdda3)
+    Users
+> Usecase
 	Role Management dapat melakukan create new role, show role, Edit role, dan delete role
 	User Management dapat melakukan create new user, Show detail User, Edit User, dan delete user
 	Product dapat melakukan create new product, show detail product, edit product, dan delete product
-Controller, Middleware dan Library tambhan beserta fungsinya
-	Paket Spatie untuk mengatur middleware dari role dan permission secara lebih sederhana
-	Seeder untuk permission sesuai dengan rolenya
-	product migration digunakan untuk table product
+> Controller, Middleware dan Library tambhan beserta fungsinya
+	- Paket Spatie untuk mengatur middleware dari role dan permission secara lebih sederhana
+	- Seeder untuk permission sesuai dengan rolenya
+	- product migration digunakan untuk table product
 
 
 
