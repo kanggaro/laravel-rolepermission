@@ -4,10 +4,11 @@ NRP | Nama
 -|-
 5025201028 | Muhammad Abror Al Qushoyyi
 
-`Link Youtube : [MultiRole Application](https://youtu.be/2mYDdAVLSw8)`
+### Link Youtube 
+- [MultiRole Application](https://youtu.be/2mYDdAVLSw8)
 
 ### Deskripsi Singkat :
-Aplikasi ini memiliki permission sesuai dengan rolenya masing masing. Pada aplikasi ini menggunakan laravel 8
+Aplikasi ini di desain memiliki permission sesuai dengan rolenya masing masing dengan menggunakan laravel 8
 Peran dan permission dibuat beberapa jenis pengguna dengan peran dan izin berbeda, maksudnya beberapa pengguna hanya melihat daftar modul item, beberapa pengguna juga dapat mengedit modul item, untuk menghapus dan lain-lain.<br>
 <br>
 Dalam contoh ini terdapat tiga modul seperti yang tercantum di bawah ini:
@@ -27,7 +28,10 @@ Setelah mendaftarkan pengguna, Anda tidak memiliki peran apa pun, sehingga Anda 
 	- Role Management dapat melakukan create new role, show role, Edit role, dan delete role
 	- User Management dapat melakukan create new user, Show detail User, Edit User, dan delete user
 	- Product dapat melakukan create new product, show detail product, edit product, dan delete product
-+ Controller, Middleware dan Library tambhan beserta fungsinya
++ Controller, Middleware dan Library tambahan beserta fungsinya
 	- Paket Spatie untuk mengatur middleware dari role dan permission secara lebih sederhana
 	- Seeder untuk permission sesuai dengan rolenya
 	- product migration digunakan untuk table product
++ DB, external interfaces: struktur tabel database yang digunakan.
+	- menggunakan composer
+	- DB yang digunakan import dari `php artisan migrate`
