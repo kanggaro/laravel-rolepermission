@@ -2,6 +2,7 @@
 
 
 @section('content')
+    <div class="container">
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
@@ -9,7 +10,7 @@
             </div>
             <div class="pull-right">
                 @can('product-create')
-                <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
+                <a class="btn btn-success mb-3" href="{{ route('products.create') }}"> Create New Product</a>
                 @endcan
             </div>
         </div>

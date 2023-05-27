@@ -2,6 +2,7 @@
 
 
 @section('content')
+    <div class="container">
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
@@ -44,8 +45,8 @@
 		            <textarea class="form-control" style="height:150px" name="detail" placeholder="Detail">{{ $product->detail }}</textarea>
 		        </div>
 		    </div>
-		    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-		      <button type="submit" class="btn btn-primary">Submit</button>
+		    <div class="col-xs-12 col-sm-12 col-md-12 text-end">
+		      <button type="submit" class="btn btn-primary mt-2">Submit</button>
 		    </div>
 		</div>
 
