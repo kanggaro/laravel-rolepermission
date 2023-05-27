@@ -1,9 +1,11 @@
-NRP 5025201028
-Nama : Muhammad Abror Al Qushoyyi
+#### Identitas
+NRP | Nama
+-|-
+5025201028 | Muhammad Abror Al Qushoyyi
 
-Link Youtube : MultiRole Application
+Link Youtube : [MultiRole Application](https://youtu.be/2mYDdAVLSw8)
 
-Deskripsi Singkat :
+#### Deskripsi Singkat :
 Aplikasi yang memiliki permission sesuai dengan rolenya masing masing. Pada aplikasi ini menggunakan laravel 8
 
 Peran dan permission dibuat beberapa jenis pengguna dengan peran dan izin berbeda, maksudnys beberapa pengguna hanya melihat daftar modul item, beberapa pengguna juga dapat mengedit modul item, untuk menghapus dan lain-lain.
@@ -16,7 +18,7 @@ Manajemen Produk
 
 Setelah mendaftarkan pengguna, Anda tidak memiliki peran apa pun, sehingga Anda dapat mengedit detail Anda dan menetapkan peran admin untuk Anda dari Manajemen Pengguna. Setelah itu Anda dapat membuat peran Anda sendiri dengan izin seperti daftar peran, pembuatan peran, edit peran, hapus peran, daftar produk, pembuatan produk, edit produk, hapus produk. Anda dapat memeriksa dengan menetapkan pengguna baru dan memeriksanya.
 
-Berdasarkan clean architecture
+##### Berdasarkan clean architecture
 Entitas apa saja yang terlibat didalam aplikasi tersebut
 	nama, detail, id, timestamp
 Usecase
